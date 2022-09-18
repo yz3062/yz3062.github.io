@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Yuxin Zhou">
+    <meta name="author" content="Yuxin Zhou">
+
+        <title>ENSO and External Forcings (advised by Julien Emile-Geay) · Yuxin Zhou</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="./theme/css/main.css">
+
+    <link rel="stylesheet" href="./theme/css/solarized-light.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container" id="wrap">
+      <nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <!--navbar-header-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=".">Yuxin Zhou</a>
+      </div> <!--navbar-header-->
+
+      <!-- Search Box -->
+          <form class="navbar-form navbar-right" role="search"
+            action="https://www.google.com/cse"
+            id="searchbox_012678389367314664541:amm50msk28u" target="_blank">
+              <input type="hidden" name="cx" value="012678389367314664541:amm50msk28u" />
+              <input type="text" name="q" class="form-control" placeholder="Search">
+          </form>
+
+      <!--Menuitems, collapable-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menuitem-list">
+                <li >
+                  <a href="./index.html" >Home</a>
+                </li>
+
+                <li >
+                  <a href="./pages/cv.html" >CV</a>
+                </li>
+
+              <li class="btn-group active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="./IRDflux.html" >IRD flux</a>
+                  </li>
+                  <li >
+                    <a href="./aU.html" >Authigenic U</a>
+                  </li>
+                  <li >
+                    <a href="./freshwater.html" >Freshwater flux</a>
+                  </li>
+                  <li >
+                    <a href="./suess.html" >Suess Effect</a>
+                  </li>
+                  <li >
+                    <a href="./Isostacy.html" >Isostasy</a>
+                  </li>
+                  <li class="active">
+                    <a href="./ENSO.html" >ENSO</a>
+                  </li>
+                </ul>
+              </li>
+                <li >
+                  <a href="./pages/photos.html" >Photos</a>
+                </li>
+
+                <li >
+                  <a href="./pages/thxsliterature.html" >Literature</a>
+                </li>
+
+                <li >
+                  <a href="./pages/contact.html" >Contact</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="https://scholar.google.com/citations?user=381uqXwAAAAJ&hl=en"     target="_blank"
+>Google Scholar</a>
+                  </li>
+                  <li >
+                    <a href="https://twitter.com/yzhouclimate"     target="_blank"
+>Twitter</a>
+                  </li>
+                  <li >
+                    <a href="https://github.com/yz3062"     target="_blank"
+>GitHub</a>
+                  </li>
+                </ul>
+              </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div> <!--container-->
+  </nav>
+
+
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+              <div class="page-header">
+        <h1><a href="./ENSO.html">ENSO and External Forcings (advised by Julien Emile-Geay)</a></h1>
+    </div>
+
+        </div>
+
+        <div class="row">
+
+    <span id="article_info">
+    <a class="label label-primary"
+      href="./category/undergraduate-research.html">undergraduate research</a>
+    <!--<span class="glyphicon glyphicon-calendar"></span>-->
+      <b> · </b>
+      <a href="./archives.html#Year2016">2016</a>-<a href="./archives.html#Year2016Month09">09</a>-<a href="./archives.html#Year2016Month09">01</a>
+
+    <!--<span class="glyphicon glyphicon-user"></span>-->
+      <b> · </b>
+    <a href="./author/Yuxin Zhou.html">Yuxin Zhou</a>
+  </span>
+
+  <hr/>
+
+  <div id="article_content">
+    <p>The Tropical Pacific exerts a significant influence on the global climate, yet we know little about how it would respond to external forcings. Specifically, the relationship between El Nino-Southern Oscillation (ENSO), the seasonal cycle, and natural forcings remains an open-end question. The answer would be key to determine the spread in twenty-first century climate projections.</p>
+<p>In this project I was in charge of the compilation and evaluation of GCM simulations. Using a bivariate forward model, synthetic coral (pseudocoral) records were first generated from nine GCM simulations of temperature and salinity. I then applied a Monte Carlo block bootstrap resampling method to the pseudocoral records and computed ENSO variability (using a 2-7 year bandpass filter) and seasonal cycle amplitude from the resampled series. To put mid-Holocene values in the context, I computed ratios bewteen mid-Holocene and pre-industrial runs.</p>
+<p>Comparing the results with observations treated with similar methods, this investigation suggests reductions in ENSO variability and increases in seasonality in mid-Holocene, and that these fluctuations do not come from radiative forcing changes, which the GCMs tend to exaggerate.</p>
+<p><img src="./images/pseudocoral.png" alt="Emile-Geay et al., 2015."/>
+<center><em>Emile-Geay et al., 2015. An example of pseudocoral generation using the formula: dO18 = a</em>SST + b<em>SSS.</em></center></p>
+  </div>
+
+  <hr/>
+
+      <ul class="pager">
+        <li class="previous">
+          <a href="./freshwater.html">
+          &laquo; Newer</a>
+        </li>
+        <li class="next">
+          <a href="./Isostacy.html">
+          Older &raquo;</a>
+        </li>
+      </ul>
+
+
+        </div>
+
+        <div class="row">
+        </div>
+
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+  </div>
+
+    <nav id="footer" class="navbar navbar-default">
+    <div class="container">
+        <p id="footer-text" class="navbar-text text-center">
+          <span id="engine">
+            Compiled using
+            <a href="https://docs.getpelican.com">Pelican</a>
+          </span>
+          <span id="theme">
+            with theme
+            <a href="https://github.com/yuex/pelican-chameleon">Chameleon</a>
+          </span>
+          <span id="bootstrap">
+            on top of
+            <a href="https://getbootstrap.com/">Bootstrap</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+
+</body>
+</html>
